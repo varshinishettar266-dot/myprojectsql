@@ -297,7 +297,7 @@ For this static site, the publish directory is .. The included netlify.toml sets
 In Netlify, open Site configuration → Environment variables (the exact menu label may vary).
 Add GEMINI_API_KEY with your own Gemini API key as the value.
 Redeploy the site after adding the environment variable.
-Get an API key from Google AI Studio: https://aistudio.google.com/app/apikey
+Get an API key from Google AI Studio:Push your ideas to the web | Netlify https://www.netlify.com/
 Security
 Do not place the real Gemini API key in script.js, HTML, or any public GitHub file.
 Use the Netlify environment variable GEMINI_API_KEY; the serverless function reads it on the server.
